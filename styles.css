@@ -1,0 +1,10 @@
+h1,h2 {
+    color: darkslateblue;
+    font-family: "DIN Condensed", sans-serif;
+    font-weight: bolder;
+}
+p,ol {
+    color: dimgray;
+    font-family: "Avenir Next Condensed" , sans-serif;
+    font-size: 18px;
+}

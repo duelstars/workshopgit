@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Workshop Git</title>
+</head>
+<body>
+<header>
+    <h1>Workshop Git deel 1</h1>
+    <h4>7 september 2022 [Recording]</h4>
+    <p>Git is een belangrijk onderdeel van Software Development. Tijdens deze interactieve workshop leren we je comitten, pushen en repositories aanmaken.</p>
+</header>
+
+<section>
+    <h2>Git aan nieuw Webstorm project toevoegen</h2>
+    <p>Open Webstorm en start een nieuw project. Initialiseer Git in het nieuwe project via onderstaande stappen.</p>
+    <ol>
+        <li>Open terminal in Webstorm.</li>
+        <li>Voer het <strong>git init</strong> command in.</li>
+        <li>Maak in Webstorm project een nieuw bestand aan.</li>
+        <li>Geef het bestand <strong>.gitignore</strong> als bestandsnaam.</li>
+        <li>Zet in dit bestand de verwijzing naar de map: <strong> /.idea</strong></li>
+    </ol>
+    <p>Voeg in het project nu een HTML- en CSS-bestand toe.</p>
+</section>
+
+<section>
+    <h2>Commit aanmaken</h2>
+    <p>Geef inhoud aan het nieuwe HTML- en CSS-bestand.</p>
+    <ol>
+        <li>Voer in de terminal het command <strong>git status</strong> in.</li>
+        <li>De gewijzigde bestanden worden in rode tekst weergegeven.</li>
+        <li><strong>Stage</strong> deze of enkele bestanden.</li>
+        <li>Voer voor <em>alle bestanden stagen</em> het command <strong>git add .</strong> in.</li>
+        <li>Voer voor <em>een enkel bestand</em> het command <strong>git add bestandsnaam</strong> in.</li>
+        <li>Controleer met het command <strong>git status</strong>of de bestanden naar groene tekst zijn gewijzigd.</li>
+        <li>Commit de bestanden met het command <strong>git commit -m "omschrijving van project status" </strong></li>
+    </ol>
+</section>
+
+<section>
+    <h2>Controleer uitgevoerde Commit</h2>
+    <p>Om te controleren of de uitgevoerde commit succesvol is kan het command <strong>git log</strong>in de terminal ingevoerd worden.</p>
+    <p>Het geeft een overzicht van alle commits. Toets herhaaldelijk <strong>enter</strong>om tot het einde van het log te komen. Sluit eventueel af met het command <strong>:q</strong> </p>
+</section>
+</body>
+</html>
